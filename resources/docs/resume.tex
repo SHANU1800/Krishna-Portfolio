@@ -1,0 +1,213 @@
+%-------------------------
+% Resume in LaTeX (Single Column, ATS-Friendly)
+% Author: Krishna Agarwal
+% Optimized for ATS Parsers & Recruiter Impact
+% License: MIT
+% Compatible with Overleaf (compile with pdfLaTeX)
+%-------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{geometry}
+
+% Page dimensions (calibrated for strict 1-page fit)
+\geometry{left=0.55in, top=0.5in, right=0.55in, bottom=0.5in}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.08in}
+\addtolength{\evensidemargin}{-0.08in}
+\addtolength{\textwidth}{0.16in}
+\addtolength{\topmargin}{-0.08in}
+\addtolength{\textheight}{0.16in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Krishna Agarwal} \\ \vspace{3pt}
+    \small \textbf{B.Com (Management \& Finance)} -- SVKM's Mithibai College, Mumbai \\ \vspace{3pt}
+    \small +91 9934133109 $|$ 
+    \href{mailto:krishnakelanka@gmail.com}{\underline{krishnakelanka@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/krishna-agarwal-248449283/}{\underline{linkedin.com/in/krishna-agarwal-248449283}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Mumbai, SVKM's Mithibai College}{Mumbai, India}
+      {Bachelor of Commerce (Management and Finance) -- \textbf{CGPA: 8.0 / 10.0 SGPA}}{July 2023 -- May 2026 (Expected)}
+    \resumeSubheading
+      {Sunbeam English School, Bhagwanpur}{Varanasi, India}
+      {Class XII (CBSE Board) -- Commerce Stream -- \textbf{93.0\%}}{April 2022 -- May 2023}
+    \resumeSubheading
+      {Sunbeam English School, Bhagwanpur}{Varanasi, India}
+      {Class X (CBSE Board) -- General Studies -- \textbf{88.0\%}}{April 2020 -- May 2021}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Work Experience / Internships}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Scholastic (Book Publishing Company)}{Mumbai, India}
+      {Accounting \& Operations Intern}{May 2025 -- July 2025}
+      \resumeItemListStart
+        \resumeItem{Recorded, categorized, and reconciled 450+ monthly commercial transactions in enterprise ERP systems with 99.6\% data accuracy.}
+        \resumeItem{Assisted senior accountants in monthly ledger reconciliations across 12+ publishing accounts, shortening closing cycles by 2 days.}
+        \resumeItem{Audited operating expense variances against budgeted allocations, surfacing actionable insights on recurring cost deviations.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {M/S Kamdhenu (FMCG Distributing Agency)}{Varanasi, India}
+      {Operations \& Billing Intern}{November 2024 -- January 2025}
+      \resumeItemListStart
+        \resumeItem{Generated 50+ daily Point of Sale (POS) receipts and GST-compliant commercial invoices exceeding INR 12L+ in weekly volume via \textbf{Tally ERP Prime}.}
+        \resumeItem{Audited 100\% of outward bound delivery cargo at the loading dock, matching physical shipments with billing manifests to eliminate transit discrepancies.}
+        \resumeItem{Accelerated discrepancy resolution between warehouse staff and retail distributors, reducing shipment hold times by 35\%.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Flying Shark (Online Clothing Brand)}{Mumbai, India}
+      {E-commerce \& Brand Management Intern}{June 2024 -- August 2024}
+      \resumeItemListStart
+        \resumeItem{Oversaw end-to-end fulfillment for 400+ weekly D2C customer orders, tracking order processing, warehousing pick-and-pack, and final dispatch.}
+        \resumeItem{Coordinated with third-party logistics (3PL) partners to uphold 98\% on-time dispatch SLAs, lowering average transit delays by 18\%.}
+        \resumeItem{Facilitated cross-functional collaboration between logistics and customer support, resolving escalations and reducing Return-to-Origin (RTO) rates by 9\%.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Academic \& Practical Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {Capital Budgeting \& Corporate Valuation Analysis}{January 2025 -- March 2025}
+      \resumeItemListStart
+        \resumeItem{Constructed an in-depth capital allocation model evaluating a hypothetical INR 20 Cr manufacturing expansion proposal.}
+        \resumeItem{Calculated core investment viability metrics including \textbf{Net Present Value (NPV)} of INR 5.2 Cr, an \textbf{Internal Rate of Return (IRR)} of 17.8\% vs. a 12\% WACC hurdle rate, and a 4.1-year discounted payback period.}
+        \resumeItem{Performed multi-variable sensitivity analysis across variable raw-material costs and inflation rates (+/- 15\%) to deliver risk-hedged capital recommendations.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {JSW Steel -- Financial Strategy \& Operational Working Capital Case Study}{October 2024 -- December 2024}
+      \resumeItemListStart
+        \resumeItem{Evaluated 5-year consolidated financials of JSW Steel, analyzing cost-leadership strategies driven by upstream backward integration.}
+        \resumeItem{Analyzed raw-material commodity hedging and cash conversion cycle management that preserved operating liquidity during volatile steel price swings.}
+        \resumeItem{Examined data-backed product-mix shifts toward value-added automotive steel that supported robust EBITDA margins of 18\%+.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {AI-Powered Workflow Automations (n8n)}{August 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{\textbf{Automated Payroll Engine:} Built an automated n8n pipeline that computes net compensation, creates dynamic PDF pay slips, and sends personalized batch emails in under 60 seconds.}
+        \resumeItem{\textbf{Performance Bonus Calculator:} Designed automated rule-based workflows calculating incentive disbursements against quarterly target tiers.}
+        \resumeItem{\textbf{Lead Ingestion Pipeline:} Built an automated webhook-triggered pipeline capturing, deduplicating, and routing 150+ weekly sales leads to CRM sheets.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {Financial Modeling Calculators (MS Excel)}{July 2024 -- September 2024}
+      \resumeItemListStart
+        \resumeItem{\textbf{Loan \& EMI Amortization Model:} Developed dynamic Excel models calculating monthly debt payments, principal-interest amortization schedules, and prepayment interest savings.}
+        \resumeItem{\textbf{Retirement Corpus Forecaster:} Built retirement planning models evaluating the compound impact of variable inflation, return rates, and withdrawal scenarios.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Technical \& Professional Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Financial \& Accounting:}{ Financial Management, Capital Budgeting (NPV, IRR, Payback), Tally ERP Prime, GST Invoicing, Financial Operations, Bank Reconciliation} \\
+     \textbf{Tools \& Software:}{ Advanced MS Excel (VLOOKUP, Pivot Tables, Amortization Modeling), MS PowerPoint, MS Office Suite, n8n Automation} \\
+     \textbf{Operations:}{ E-commerce Fulfillment Operations, 3PL Vendor Coordination, Inventory Auditing, Dispatch Quality Control} \\
+     \textbf{Core Competencies:}{ Quantitative Analysis, Cross-Functional Team Leadership, Discrepancy Reconciliation, Written \& Verbal Communication}
+    }}
+ \end{itemize}
+
+%-----------EXTRACURRICULAR & LEADERSHIP-----------
+\section{Co-Curricular \& Leadership}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Third Bridge (via Forage)}{Virtual Simulation}
+      {Client Service Delivery Job Simulation}{Completed August 2024}
+      \resumeItemListStart
+        \resumeItem{Simulated institutional client engagement, consultative research scoping, and executive deliverable synthesis.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {SVKM's Mithibai College}{Mumbai, India}
+      {Student Leadership \& Committee Roles}{July 2023 -- Present}
+      \resumeItemListStart
+        \resumeItem{\textbf{Mithibai Reclamo:} Executive Member -- Directed inter-collegiate event planning, managed vendor logistics, and coordinated operations for 1,000+ attendees.}
+        \resumeItem{\textbf{Mithibai Finanza:} Committee Member -- Organized student financial seminars, case study discussions, and speaker sessions.}
+        \resumeItem{\textbf{Department of Lifelong Learning and Extension (DLLE):} Active Member -- Participated in community outreach and extension initiatives.}
+        \resumeItem{\textbf{Athletic Achievement:} National Level Medalist in Boxing -- Recognized for discipline, endurance, and strategic execution under pressure.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\end{document}
